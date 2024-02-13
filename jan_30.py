@@ -12,10 +12,12 @@
 # print(list1)
 
 
-# list2=['34',78,'67','12']
+list2=['34',78,'67','12']
 # add 45 and '45' to list2
 # add 78 at the last Index
 # add 'royal','pvt','ltd' in the list2
+# list2.extend(['royal','pvt'])
+# print(list2)
 # add 100 to list2
 # add 45 at fifth index
 
@@ -28,9 +30,10 @@ list1=[1,2,3]
 # print(list1)
 
 
-# e =list1.pop()
-# list1.insert(0,e)
+# e =list1.pop(1)
+# # list1.insert(0,e)
 # print(list1)
+# print(e)
 
 # list1.clear()
 # print(list1)
@@ -39,7 +42,14 @@ list1=[1,2,3]
 # print(list1)
 
 
-remove 6th element from the list
-remove any element form the list
-clear whole list
-delete all element expect 7,8,9,10
+# remove 6th element from the list
+# remove any element form the list
+# clear whole list
+# delete all element expect 7,8,9,10
+
+
+list1=[1,2,3,3]
+
+# print(list1.index(4))
+
+# print(list1.count(33))
